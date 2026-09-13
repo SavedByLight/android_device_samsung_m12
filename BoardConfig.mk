@@ -141,5 +141,13 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 # Making the recovery.img smaller
 BOARD_HAS_NO_REAL_SDCARD := true
 
+# Excludes
+TW_EXCLUDE_TZDATA := true
+TW_EXCLUDE_NANO := true
+TW_NO_HAPTICS := true
+TW_EXCLUDE_SUPERSU := true
+TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_PYTHON := true
+
 # Version
 TW_DEVICE_VERSION := SavedByLight Pre-Release
