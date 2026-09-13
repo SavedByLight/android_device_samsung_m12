@@ -138,5 +138,8 @@ TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
+# Making the recovery.img smaller
+BOARD_HAS_NO_REAL_SDCARD := true
+
 # Version
 TW_DEVICE_VERSION := SavedByLight Pre-Release
