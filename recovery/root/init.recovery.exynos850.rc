@@ -8,3 +8,4 @@ on late-init
     setprop sys.usb.config adb
 
 on boot
+    start health-hal-2-1
